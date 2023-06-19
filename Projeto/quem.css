@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@media only screen and (max-device-width: 900px) {
+    .menu { width:600px; } }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    z-index: 5;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+
+.links a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+h5 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+h5:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.somos {
+    background-color: rgb(34, 33, 33);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px;
+}
+
+.direita {
+    max-width: 40%;
+    color: white;
+}
+
+.direita p {
+    font-weight: 100;
+    position: relative;
+    z-index: 5;
+    width: 450px;
+}
+
+.esquerda {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.bar {
+    height: 220px;
+    width: 8px;
+    background-color: rgb(70, 70, 70);
+}
+
+.texto {
+    color: white;
+}
+
+.quem {
+    color: rgb(143, 130, 77);
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+.torio {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.fundo {
+    height: 110vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    opacity: 10%;
+}
+
+
+
+.pessoas {
+    background-color: white;
+    height: 160vh;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+.pessoas h4 {
+    text-align: center;
+    padding: 40px;
+    font-size: 3rem;
+    color: rgb(143, 130, 77);
+    font-weight: lighter;
+
+}
+
+.circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 30px;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(143, 130, 77);
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    width: 98%;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto-2 {
+    width: 2000px;
+    font-size: large;
+}
+
+.doutor {
+    text-align: center;
+    margin: 10px;
+}
+
+.doutor p {
+    margin-top: 10px;
+    font-size: larger
+}
+
+.contato {
+    background-color: rgb(34, 33, 33);
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.contato h6{
+    padding: 40px;
+    font-size: 3rem;
+    color: rgb(143, 130, 77);
+    font-weight: lighter;
+}
+
+.contato p {
+    padding: 15px;
+}
